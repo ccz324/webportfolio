@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Chia's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  html{
+  scroll-behavior:smooth;
+  }
+  body {
+    font: 20px Montserrat, sans-serif;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color:grey;
+    color: white;
+  }
+  .bg-2 { 
+    height: 660px;
+    background-image: url('whitebg.jpg');
+    background-size: cover;
+    color: black;
+  }
+  .bg-3 { 
+    height: 660px;
+    color: white;
+  }
+  .bg-3 legend{
+    color:white;
+    text-align: left;
+  }
+  .bg-3 p{
+    text-align: justify;
+  }
+
+  #bgVideo{
+    
+    object-fit: fill;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  .bg-4 { 
+    background-color: lightsteelblue;
+    color: black;
+    height: 660px;
+  }
+  .bg-4 img{
+    height: 100%;
+    width: 100%;
+  }
+  .bg-4 h2{
+    padding:50px;
+    text-align: center;
+  }
+  .bg-4 p{
+    margin: 30px;
+    text-align: center;
+  }
+  
+  .bg-5 { 
+    background-color: #2f2f2f; 
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+  .fa {
+  padding: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+} 
+.fa-facebook:hover{
+  opacity: 0.5;
+  color:white;
+}
+.fa-instagram {  
+  background: #125688;  
+  color: white;  
+} 
+.fa-instagram:hover{
+  opacity:0.5;
+  color: white;
+}
+.fa-linkedin {  
+  background: #007bb5;  
+  color: white;  
+}   
+.fa-linkedin:hover {
+  opacity: 0.5;
+  color: white;
+}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" id="home">Chia Chin Zhe</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Hey, I'm Chia Chin Zhe.</h3>
+  <img src="pic.jpg" class="img-responsive img-circle margin" style="display:inline" alt="profilepic" width="350" height="350" border-radius="50%;">
+  <h3>IT Student / KidoCode Intern / Drummer</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id="aboutme">
+  <h1 class="margin">About Me</h1><br />
+  <p>A student come from UTAR Kampar, Perak.</p><br /><br />
+  <p>An ordinary guy who likes watching anime, listening to music and playing games.</p><br /><br />
+  <p>A responsible, kind, talkative person. Chill.</p><br /><br /><br />
+  <a href="#morestory" class="btn btn-default btn-lg">
+    View More
+  </a>
+</div>
+
+<!-- Third Container -->
+<div class="container-fluid bg-3 text-center" id="morestory">  
+  <h2 class="margin">My Life's Journey</h2>
+  <video autoplay muted loop id="bgVideo">
+    <source src="sea.mp4" type="video/mp4">
+  </video>
+  <div class="row">
+    <div class="col-sm-4">
+      <fieldset>
+      <legend><h4>2007-2012</h4></legend>
+      <p>I live in Hutan Melintang, Perak. Hutan Melintang is a mukim in Bagan Datuk District, Perak, Malaysia. 
+        The majority of the population works in the fishing industry, which is one of the biggest in Malaysia. 
+        </p>
+      <p>I had an awesome childhood. Every evening, my friends will come to my house to play together, play badminton, volleyball and so on.
+        Sometimes we would go for a ride on bicycles together. Unconsciously, the pleasant time always passed quickly.
+      </p>
+      <p>When I was 10, I was chosen to be a prefect in the school. I know I am not a kid that love studying and learning but I realize the 
+        importantce of responsibility as a student. I think it may have changed my personality since I became a prefect in the school. </p>
+    </fieldset>
+    </div>
+    <div class="col-sm-4"> 
+      <fieldset>
+      <legend><h4>2013-2017</h4></legend>
+      <p>After I went to secondary school, I have joined a uniformed unit called 24 festive drums. I learned discipline and self-discipline from here. 
+        It makes my life more meaningful and wonderful, this is something I will never forget in my whole life. 
+      </p>
+      <p>At that time, we suffered all kinds of performances and competitions. Every member had to go back to school to practice drumming and prepare performance every Saturday and Sunday. 
+        Our practice time mostly is from 8am to 6pm. For the competition, our practice time even went to 9.30pm if necessary. </p>
+        <p>In retrospect, training in a day starts with warming up. The warm up content includes stretching, running, push-ups and sit-ups. 
+          This sounds very common, but it's not easy to do.</p>
+          <p>Although it has been few years since I graduated, these memories are still imprinted deeply in my mind. 
+            It really makes me miss those hard times but fulfilling secondary school days.</p>
+    </fieldset>
+    </div>
+    <div class="col-sm-4"> 
+      <fieldset>
+      <legend><h4>2018-2021</h4></legend>
+      <p>I decided to continue my study at UTAR after I graduated. I shared a dormitory unit with other secodnary school friends who were also studying at UTAR.
+        We play poker together almost everyday to pass our free time. We also often go out to dine together. Sometimes, we all go to mamak or boba milk tea shop to chill and relax.
+      </p>
+      <p>Our dormitory community has a swimming pool, we occasionally go to swimming pool to swim after dinner. Actually I am the one who don't know how to swim, after several 
+        practice, I finally know how to swim. This makes me proud and feels that I unlocked one of the achievements of my life.
+         </p>
+         <p>After a long time, I realized that my life and play are really inseparable. However, I will soon enter the workforce. I'm no longer a child who can be naive and playful, 
+          I just hope that my future is not lost, and that I can find a way out for me after I graduate from university.
+         </p>
+    </fieldset>
+    </div>
+  </div>
+</div>
+
+<!-- Fourth Container  -->
+<div class="container-fluid bg-4 text-center" id="contact">  
+  <div class="row">
+    <div class="column">
+      <img src="contactpic.jpg">
+    </div>
+    <div class="column">
+      <h2>Contact</h2>
+      <p>Chia Chin Zhe </p>
+      <p>Phone - 016-2305320 (Main) / 011-36320320 </p>
+      <p>Email - chinzhechinzhe123123@gmail.com</p>
+      <a href="https://www.facebook.com/chinzhe0000/" class="fa fa-facebook"></a>
+      <a href="https://www.instagram.com/chinnzhee/" class="fa fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/chia-c-57272ab3/" class="fa fa-linkedin"></a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-5 text-center">
+  <p>© 2021 Chia Chin Zhe | KidoCode Intern | Portfolio</p> 
+</footer>
+
+</body>
+</html>
